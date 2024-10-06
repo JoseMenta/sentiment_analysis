@@ -6,12 +6,13 @@ r = requests.get('https://www.rottentomatoes.com/napi/movie/24287464-bfdc-362a-b
 data = json.loads(r.text)
 reviews = data['reviews']
 # File path for the CSV file
-csv_file_path = 'reviews.csv'
+csv_file_path = 'data/reviews.csv'
 
 # Open the file in write mode
 with open(csv_file_path, mode='w', newline='') as file:
     # Create a csv.writer object
     writer = csv.writer(file)
+    writer.writerow(['review'])
     # Write data to the CSV file
     for review in reviews:
         try:
