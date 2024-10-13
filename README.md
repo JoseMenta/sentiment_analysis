@@ -15,13 +15,13 @@ To use it:
 To run the code in _get\_reviews.py_, the contents of the file can be copied inside a code cell in the notebook where the csv file with the reviews is needed. 
 
 ### Without google colab
-Alternatively, the project can be run using a local environment. This environment should run [Python 3.12.5](https://www.python.org/downloads/release/python-3125/) or higher and have the dependencies specified in the file _requirements.txt_, which can be installed using a package manager like [pip](https://pypi.org/project/pip/) with the following command.
+Alternatively, the project can be run using a local environment. This environment should run [Python 3.12.5](https://www.python.org/downloads/release/python-3125/) or higher and have the dependencies specified in the file _requirements.txt_, which can be installed using a package manager like [pip](https://pypi.org/project/pip/) with the following command:
 ```bash
 pip install -r requirements.txt
 ```
-For further information on how to run the notebooks, [this link](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) provides information to set it on Visual Studio Code or [this link](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html#-h1z4uh_2) for Pycharm. Also, the Jypyter site provides [a page](https://docs.jupyter.org/en/latest/running.html) to start a custom notebook server. 
+For further information on how to run the notebooks, [this link](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) provides information to set it up on Visual Studio Code or [this link](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html) for Pycharm. Also, the Jupyter site provides [a tutorial](https://docs.jupyter.org/en/latest/running.html) to start a custom notebook server. 
 ## About the project
 This project is done for the subject _Machine Learning 2_ from UASTW. 
 **The members of the group are:**
-- 62248 - [José Rodolfo Mentasti](https://github.com/JoseMenta)
-- 62329 - [Lautaro Hernando](https://github.com/laucha12)
+- [José Rodolfo Mentasti](https://github.com/JoseMenta)
+- [Lautaro Hernando](https://github.com/laucha12)
